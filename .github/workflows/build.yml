@@ -19,19 +19,16 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-      - name: Download correct Gradle wrapper jar
-        run: |
-          curl -fsSL https://raw.githubusercontent.com/gradle/gradle/v8.4.0/gradle/wrapper/gradle-wrapper.jar \
-            -o gradle/wrapper/gradle-wrapper.jar
-
-      - name: Grant gradlew execute permission
-        run: chmod +x gradlew
+      - name: Install Gradle
+        uses: gradle/actions/setup-gradle@v3
+        with:
+          gradle-version: '8.4'
 
       - name: Accept Android SDK licenses
         run: yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --licenses || true
 
       - name: Build debug APK
-        run: ./gradlew assembleDebug
+        run: gradle assembleDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
