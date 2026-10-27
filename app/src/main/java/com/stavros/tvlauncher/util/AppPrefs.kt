@@ -50,8 +50,7 @@ class AppPrefs(context: Context) {
             "com.google.android.youtube.tv",
             "com.netflix.ninja",
             "com.spotify.tv.android",
-            "com.cloudmosa.puffinTV",
-            "com.google.android.apps.youtube.music"
+            "com.google.android.youtube.tvmusic"
         )
     }
 }
