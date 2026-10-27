@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dock_margin_h">28dp</dimen>
+    <dimen name="dock_margin_bottom">40dp</dimen>
+    <dimen name="dock_padding">8dp</dimen>
+    <dimen name="dock_radius">24dp</dimen>
+    <dimen name="icon_size">80dp</dimen>
+    <dimen name="icon_radius">16dp</dimen>
+    <dimen name="icon_gap">8dp</dimen>
+    <dimen name="bezel_stroke">2dp</dimen>
+    <dimen name="bezel_radius">14dp</dimen>
+    <dimen name="qi_btn_size">44dp</dimen>
+    <dimen name="time_text_size">26sp</dimen>
+    <dimen name="date_text_size">13sp</dimen>
+    <dimen name="weather_text_size">13sp</dimen>
+</resources>

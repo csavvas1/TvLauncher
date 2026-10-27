@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_dark">#0C0C0E</color>
+    <color name="dock_bg">#D2121212</color>
+    <color name="bezel_white">#E0FFFFFF</color>
+    <color name="text_primary">#EBFFFFFF</color>
+    <color name="text_secondary">#A6FFFFFF</color>
+    <color name="text_dim">#4DFFFFFF</color>
+    <color name="qi_btn_bg">#1AFFFFFF</color>
+    <color name="transparent">#00000000</color>
+</resources>

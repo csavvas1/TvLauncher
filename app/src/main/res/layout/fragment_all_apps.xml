@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark"
+    android:focusableInTouchMode="true">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/all_apps_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="40dp"
+        android:clipToPadding="false"/>
+
+</FrameLayout>
